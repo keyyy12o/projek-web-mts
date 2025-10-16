@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h2>Tentang Sekolah</h2><br>
+<h2>Sejarah MTS Miftahul Huda</h2><br>
 <img src="{{ asset('images/profil.jpg') }}" 
   alt=""
   style="float: left; margin-right:20px; widht:200px;">
