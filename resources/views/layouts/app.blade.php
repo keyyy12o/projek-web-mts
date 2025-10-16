@@ -75,7 +75,19 @@
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="{{ route('home') }}" class="nav-link">HOME</a></li>
-                    <li class="nav-item"><a href="{{ route('profil') }}" class="nav-link">PROFIL</a></li>
+
+                    <!-- Dropdown PROFIL -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            PROFIL
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ route('program.sejarah') }}">SEJARAH</a></li>
+                            <li><a class="dropdown-item" href="{{ route('program.visi_misi') }}">VISI & MISI</a></li>
+                            <li><a class="dropdown-item" href="{{ route('program.sarana_prasarana') }}">SARANA DAN PRASARANA</a></li>
+                        </ul>
+                    </li>
+                    
 
                     <!-- Dropdown INFORMASI -->
                     <li class="nav-item dropdown">
@@ -91,6 +103,7 @@
                     <li class="nav-item"><a href="{{ route('galeri') }}" class="nav-link">GALERI</a></li>
                     <li class="nav-item"><a href="{{ route('kontak') }}" class="nav-link">KONTAK</a></li>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -105,11 +118,6 @@
             @yield('content')
         </div>
     @endif
-
-    <!-- Footer -->
-    <footer class="bg-success text-white py-4 mt-5 text-center">
-        <p>MTS Miftahul Huda © 2025. All rights reserved</p>
-    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

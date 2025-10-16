@@ -34,6 +34,15 @@ Route::get('/program/senior', function () {
     return view('ekstakulikuler');
 })->name('program.ekstrakulikuler');
 
+
+use App\Http\Controllers\ProgramController;
+Route::get('/sejarah', [ProgramController::class, 'sejarah'])->name('program.sejarah');
+
+Route::get('/visimisi', [ProgramController::class, 'visimisi'])->name('program.visimisi');
+
+Route::get('/sarana', [ProgramController::class, 'sarana'])->name('program.sarana');
+
+
 Route::get('/about', function () {
     return view('about');
 });
