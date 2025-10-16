@@ -1,7 +1,16 @@
 @extends('layouts.app')
 
+<<<<<<< HEAD
 @section('title', 'Profil MTS Miftahul Huda')
 @section('header', 'PROFIL')
+=======
+@section('content')
+<h2>Sejarah MTS Miftahul Huda</h2><br>
+<img src="{{ asset('images/profil.jpg') }}" 
+  alt=""
+  style="float: left; margin-right:20px; widht:200px;">
+<p>MTs Miftahul Huda adalah sekolah berbasis Islam yang berdedikasi dalam pendidikan dan pembentukan karakter siswa.</p>
+>>>>>>> b7af190ff07603cae614011b36238190c060e4d1
 
 
 
