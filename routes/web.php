@@ -26,9 +26,6 @@ Route::get('/library', function () {
     return view('pages.library');
 })->name('library');
 
-Route::get('/program/fasilitas', function () {
-    return view('page.fasilitas');
-})->name('program.fasilitas');
 
 Route::get('/program/senior', function () {
     return view('ekstakulikuler');
@@ -40,7 +37,7 @@ Route::get('/sejarah', [ProgramController::class, 'sejarah'])->name('program.sej
 
 Route::get('/visimisi', [ProgramController::class, 'visimisi'])->name('program.visimisi');
 
-Route::get('/sarana', [ProgramController::class, 'sarana'])->name('program.sarana');
+Route::get('/fasilitas', [ProgramController::class, 'fasilitas'])->name('program.fasilitas');
 
 
 Route::get('/about', function () {

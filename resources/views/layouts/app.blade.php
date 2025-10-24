@@ -130,7 +130,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('program.sejarah') }}">SEJARAH</a></li>
                             <li><a class="dropdown-item" href="{{ route('program.visi_misi') }}">VISI & MISI</a></li>
-                            <li><a class="dropdown-item" href="{{ route('program.sarana_prasarana') }}">SARANA DAN PRASARANA</a></li>
+                            <li><a class="dropdown-item" href="{{ route('program.fasilitas') }}">FASILITAS</a></li>
                         </ul>
                     </li>
                     
@@ -141,7 +141,6 @@
                             INFORMASI
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="informasiDropdown">
-                            <li><a class="dropdown-item" href="{{ route('program.fasilitas') }}">FASILITAS</a></li>
                             <li><a class="dropdown-item" href="{{ route('program.ekstrakulikuler') }}">EKSTRAKULIKULER</a></li>
                         </ul>
                     </li>
