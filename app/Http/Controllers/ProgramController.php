@@ -18,7 +18,7 @@ class ProgramController extends Controller
 
 public function saranaprasarana()
 {
-    return view('program.fasilitas');
+    return view('page.fasilitas');
 }
 
 

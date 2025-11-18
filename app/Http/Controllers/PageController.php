@@ -7,26 +7,26 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function home() {
-        return view('pages.home');
+        return view('page.home');
     }
 
     public function profil() {
-        return view('pages.profil');
+        return view('page.profil');
     }
 
     public function informasi() {
-        return view('pages.informasi');
+        return view('page.informasi');
     }
 
     public function fasilitas() {
-        return view('pages.fasilitas');
+        return view('page.fasilitas');
     }
 
     public function galeri() {
-        return view('pages.galeri');
+        return view('page.galeri');
     }
 
     public function kontak() {
-        return view('pages.kontak');
+        return view('page.kontak');
     }
 }

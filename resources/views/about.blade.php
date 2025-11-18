@@ -6,7 +6,7 @@
         
         <!-- Foto di sebelah kiri -->
         <div class="flex justify-center">
-            <img src="{{ asset('images/sekolah.jpg') }}" 
+            <img src="{{ asset('images/school1.jpg') }}" 
                  alt="Foto Sekolah MTS Miftahul Huda" 
                  class="rounded-full shadow-lg w-80 h-80 object-cover">
         </div>

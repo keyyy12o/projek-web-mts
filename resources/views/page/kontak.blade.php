@@ -1,4 +1,4 @@
-@extends('layouts')
+@extends('layouts.app')
 
 @section('content')
 <h2>Kontak Kami</h2>
